@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f0f500"
+    android:layout_margin="10sp"
+    tools:context=".MainActivity2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#0088ff"
+        android:layout_margin="10sp"
+        android:padding="20sp">
+
+        <Button
+            android:id="@+id/btn1"
+            android:onClick="mClick"
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="1st page"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:onClick="mClick"
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="2ed page"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:onClick="mClick"
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="3th page"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#8500FF"
+        android:layout_margin="10sp"
+        android:text="에러">
+
+        <LinearLayout
+            android:id="@+id/page1"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20sp"
+            android:background="#ff0000"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Wellcome to 1st page"
+                android:textSize="20sp"/>
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="이름 입력"/>
+            <Button
+                android:id="@+id/btnNamePrint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="출력"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/page2"
+            android:visibility="invisible"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20sp"
+            android:background="#ffff00"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="200sp"
+                android:layout_height="180sp"
+                android:src="@drawable/dog"/>
+
+            <Button
+                android:id="@+id/btnPic1"
+                android:onClick="mImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1st 그림"/>
+            <Button
+                android:id="@+id/btnPic2"
+                android:onClick="mImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2nd 그림"/>
+            <Button
+                android:id="@+id/btnPic3"
+                android:onClick="mImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3th 그림"/>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/page3"
+            android:visibility="invisible"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20sp"
+            android:background="#0000ff"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/sum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1~100합 출력"
+                android:textSize="20sp"
+                android:textColor="#ffffff"/>
+            <Button
+                android:id="@+id/btnSum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="합계결과"/>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</LinearLayout>

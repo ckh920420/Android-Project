@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:layout_gravity="center_horizontal">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="300sp"
+        android:layout_height="300sp"
+        android:src="@drawable/tem1"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="우리가 어떤 민족입니까"
+        />
+
+   <!-- <ImageView
+        android:id="@+id/item2"
+        android:layout_width="300sp"
+        android:layout_height="300sp"
+        android:src="@color/colorAccent"
+        android:layout_gravity="center"/>
+
+    <ImageView
+        android:id="@+id/item3"
+        android:layout_width="300sp"
+        android:layout_height="300sp"
+        android:src="@color/colorAccent"
+        android:layout_gravity="center"/>
+
+    <ImageView
+        android:id="@+id/item4"
+        android:layout_width="300sp"
+        android:layout_height="300sp"
+        android:src="@color/colorAccent"
+        android:layout_gravity="center"/>-->
+
+</LinearLayout>
