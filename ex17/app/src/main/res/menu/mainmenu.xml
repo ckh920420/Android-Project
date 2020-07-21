@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="1번 아이템"
+        app:showAsAction="always|withText"
+        android:id="@+id/item1"/>
+    <item android:title="2번 아이템"
+        app:showAsAction="ifRoom"
+        android:icon="@mipmap/ic_launcher"
+        android:id="@+id/item2"/>
+    <item android:title="3번 아이템"
+        app:showAsAction="ifRoom"
+        android:id="@+id/item3"/>
+    <item android:title="4번 아이템"
+        app:showAsAction="ifRoom"/>
+    <item android:title="5번 아이템"
+        app:showAsAction="ifRoom"/>
+    <item android:title="6번 아이템"
+        app:showAsAction="ifRoom"/>
+    <item android:title="7번 아이템"
+        app:showAsAction="ifRoom"/>
+    <item android:title="8번 아이템"
+        app:showAsAction="ifRoom"/>
+    <item android:title="9번 아이템"
+        app:showAsAction="ifRoom"/>
+    <item android:title="10번 아이템"
+        app:showAsAction="ifRoom"/>
+    <item android:title="11번 아이템"
+        app:showAsAction="ifRoom"/>
+    <item android:title="12번 아이템"
+        app:showAsAction="ifRoom"/>
+    <item android:title="13번 아이템"
+        app:showAsAction="ifRoom"/>
+    <item android:title="14번 아이템"
+        app:showAsAction="ifRoom"/>
+    <item android:title="15번 아이템"
+        app:showAsAction="ifRoom"/>
+    <item android:title="16번 아이템"
+        app:showAsAction="ifRoom"/>
+    <item android:title="17번 아이템"
+        app:showAsAction="ifRoom"/>
+    <item android:title="18번 아이템"
+        app:showAsAction="ifRoom"/>
+    <item android:title="19번 아이템"
+        app:showAsAction="ifRoom"/>
+    <item android:title="20번 아이템"
+        app:showAsAction="ifRoom"/>
+
+
+</menu>
